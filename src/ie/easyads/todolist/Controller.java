@@ -167,7 +167,7 @@ public class Controller {
     public void showNewItemDialog(){
         Dialog<ButtonType> dialog = new Dialog<>();
         dialog.initOwner(mainBorderPane.getScene().getWindow());
-        dialog.setTitle("Add new item");
+        dialog.setTitle("Add new item.");
         dialog.setHeaderText("Use this dialog to create new item.");
         FXMLLoader fxmlloader = new FXMLLoader();
         fxmlloader.setLocation(getClass().getResource("todoItemDialog.fxml"));
